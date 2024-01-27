@@ -74,6 +74,7 @@ export default function Home() {
             height={300}
             width={300}
             className='absolute right-55 top-40'
+            />
     </main>
   );
 }
