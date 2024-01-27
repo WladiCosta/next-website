@@ -60,7 +60,7 @@ export default function Home() {
           />
           <Image src="/cliff.webp" alt="cliff" width={480} height={480}/>
           </div>
-          <div className='absolute bottom-0 z-[5] w-full h-full'>
+          <div className='absolute bottom-0 z-[5] w-full h-auto'>
             <Image 
               src="/trees.webp"
               alt="trees"
