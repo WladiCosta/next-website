@@ -68,6 +68,12 @@ export default function Home() {
               height={2000}
             />
           </div>
+          <Image 
+            src="/stars.png"
+            alt="stars"
+            height={300}
+            width={300}
+            className='absolute right-55 top-40'
     </main>
   );
 }
