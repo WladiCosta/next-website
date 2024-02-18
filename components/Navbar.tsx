@@ -12,8 +12,13 @@ const Navbar = () => {
             />
             <h1 className='text-white text-[25px] font-semibold'>WladiCosta Dev</h1>
         </div>
-        <div className=''>
-
+        <div className='flex flex-row gap-5 mb-2'>
+            {Social.map((social => (
+              <Image 
+              
+              
+              />
+            )))}
         </div>
 
     </div>
