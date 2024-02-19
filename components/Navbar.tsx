@@ -14,7 +14,11 @@ const Navbar = () => {
             className='w-full h-full object-contein rounded-full'
             />
           </div>  
-            <h1 className='text-white text-[25px] font-semibold'>WladiCosta Dev</h1>
+            <h1 className='text-white text-[25px] font-semibold'>WladiCosta <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500'>
+              {" "}
+              Dev
+              {" "}
+            </span></h1>
         </div>
         <div className='flex flex-row gap-5 mb-2'>
             {Socials.map((social => (
